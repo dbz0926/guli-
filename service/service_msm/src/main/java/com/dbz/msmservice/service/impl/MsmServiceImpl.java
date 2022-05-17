@@ -27,7 +27,7 @@ public class MsmServiceImpl implements MsmService {
         if(StringUtils.isEmpty(PhoneNumbers)) return false;
 
         DefaultProfile profile =
-                DefaultProfile.getProfile("default", "LTAI5tPcLM5EtGJyuAmZLED1", "a56d6evNsIORYnbe60mMPxujv7Qssg");
+                DefaultProfile.getProfile("default", "**************", "****************");
         IAcsClient client = new DefaultAcsClient(profile);
 
         CommonRequest request = new CommonRequest();
